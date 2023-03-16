@@ -1,0 +1,39 @@
+using ArraysUnsorted:
+  insertion-O(1)
+  getMin/getMax-O(n)
+  removeMin/removeMax-O(n)
+
+
+using ArraysSorted:
+  insertion-O(n)            ==>insertion and shifting O(n+n)=O(n)
+  getMin/getMax-O()
+  removeMin/removeMax-O(n)  ==>removing=O(1) and shifting=O(n)
+
+
+using LinkedlistsUnsorted:
+  insertion-O(1)
+  getMin/getMax-O(n)
+  removeMin/removeMax-O(n)
+
+
+using LinkedlistsSorted:
+  insertion-O(n)
+  getMin/getMax-O(1)
+  removeMin/removeMax-O(1)
+
+
+using BST:
+  insertion-O(height)
+  getMin/getMax-O(height)
+  removeMin/removeMax-O(height)
+  
+
+using Balanced_BST:
+  insertion-O(logn)
+  getMin/getMax-O(logn)
+  removeMin/removeMax-O(logn)
+  
+using HashMap:
+  insertion-O(1)
+  getMin/getMax-O(n)
+  removeMin/removeMax-O(n)
