@@ -1,0 +1,19 @@
+1st factor:Height
+
+Minimum no.of nodes with height h CBT: 2^(h-1)
+Height=4
+                       o              2^0 (first term a=2^0) and r=2
+                    o    o            2^1
+                   o o  o o           2^2
+                  o                    1             ==> a(r^n-1)/r-1= a(r^(h-1)-1)/(r-1) + 1
+
+
+Maximum no.of nodes with height h CBT: 2^(h)-1
+Height=4
+                       o              2^0 (first term a=2^0) and r=2
+                    o    o            2^1
+                   o o  o o           2^2
+                  oo oo oo oo         2^3           ==> a(r^n-1)/r-1= a(r^(h)-1)/(r-1)
+
+
+
