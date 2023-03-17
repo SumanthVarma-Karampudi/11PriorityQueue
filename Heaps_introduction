@@ -5,5 +5,7 @@ As we discussed that BinaryTree is the best option to implement the priority que
 So to avoid these drawbacks, we are not implementing BBST instead we use Heaps:
 
 Heaps property:
-  1.Complete Binary Tree- A tree all levels are filled except last level and last level must be filled from left to right
-  2.Heap order property
+  1.Complete Binary Tree - A tree all levels are filled except last level and last level must be filled from left to right
+  2.Heap order property - Min heap and Max heap 
+   -->Min heap- Root must be less than the two children 
+   -->Max heap- Root must be greater than the two children
