@@ -16,4 +16,20 @@ Height=4
                   oo oo oo oo         2^3           ==> a(r^n-1)/r-1= a(r^(h)-1)/(r-1)
 
 
+====>  (2^(h-1)) <= n <= (2^h -1)
+       If we solve this, we get h value as logn  on applying log on lhs and rhs.
+       this means that complete binary is balanced tree
 
+
+
+Insertion in CBT:
+We can insert only at last level so we need to traverse level wise.
+Formulas for left child and right child in level wise insertion queue --------------> 0 1 2 3 4 5 
+                                                                         0 child 1 2 
+                                                                         1 child 3 4
+                                                                         2 child 4 5
+By observing we derive formula for this     left child= 2*i+1
+                                            right child= 2*i+2
+                                                             
+                                          parent from left child= LC-1/2
+                                          parent from right child= Rc-1/2
