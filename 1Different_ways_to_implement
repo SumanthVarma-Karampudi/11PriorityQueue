@@ -22,7 +22,7 @@ using LinkedlistsSorted:
   removeMin/removeMax-O(1)
 
 
-using BST:
+using BST :
   insertion-O(height)
   getMin/getMax-O(height)
   removeMin/removeMax-O(height)
