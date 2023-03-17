@@ -1,8 +1,8 @@
-As we discussed that BinaryTree is the best option to implement the priority queue but there are two issues with the BST
+As we discussed that BinaryTree is the best option to implement the priority queue but there are two issues with the BT
   1.Balancing Factor(maintaining balance while inserting)
   2.Storing values
   
-So to avoid these drawbacks, we are not implementing BBST instead we use Heaps:
+So to avoid these drawbacks, we are not implementing BT instead we use Heaps:
 
 Heaps property:
   1.Complete Binary Tree - A tree all levels are filled except last level and last level must be filled from left to right
