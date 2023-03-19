@@ -82,6 +82,10 @@ class PriorityQueue()
         {
           minIndex = rightChildIndex;
         }
+        if( minIndex == parentIndex )
+        {
+          break;
+        }
         
         int temp = pq[minIndex];
         pq[minIndex] = pq[parentIndex];
