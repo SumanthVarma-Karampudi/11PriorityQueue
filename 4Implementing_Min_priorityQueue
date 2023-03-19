@@ -83,6 +83,6 @@ class PriorityQueue()
           minIndex = rightChildIndex;
         }
         int temp = pq[minIndex];
-        pq[parentIndex] = pq[parentIndex
+        pq[parentIndex] = pq[parentIndex];
       
 };
