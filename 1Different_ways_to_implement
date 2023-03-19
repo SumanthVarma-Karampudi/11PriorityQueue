@@ -1,4 +1,4 @@
-using ArraysUnsorted:
+eusing ArraysUnsorted:
   insertion-O(1)
   getMin/getMax-O(n)
   removeMin/removeMax-O(n)
@@ -6,7 +6,7 @@ using ArraysUnsorted:
 
 using ArraysSorted:
   insertion-O(n)            ==>insertion and shifting O(n+n)=O(n)
-  getMin/getMax-O()
+  getMin/getMax-O(1)
   removeMin/removeMax-O(n)  ==>removing=O(1) and shifting=O(n)
 
 
