@@ -52,7 +52,7 @@ class PriorityQueue()
           break;
         }
         childIndex = parentIndex;
-      }
+    }
       
       
 -->int removeMin()
