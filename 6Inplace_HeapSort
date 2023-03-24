@@ -24,7 +24,8 @@ void inplaceHeapSort(int pq[], int n)
    //Remove elements
    
    int size = n;
-   
+    
+   while(size>1){
    int temp = pq[0];
    pq[0] = pq[size-1];
    pq[size-1] = temp;
@@ -60,11 +61,11 @@ void inplaceHeapSort(int pq[], int n)
         int rightChildIndex = 2 * parentIndex + 2;
         
       }
-        
+    }
 }
 int main()
 {
-  int input[]=1,2,0,8};
+  int input[]={1,6,2,0,8};
   inplaceHeapSort(input, 5);
   for(int i=0;i<5;i++)
   {
