@@ -39,8 +39,9 @@ public:
                 pq[parentIndex] = pq[childIndex];
                 pq[childIndex] = temp;
             }
-            else
+            else{
                 break;
+            }
             childIndex = parentIndex;
         }
     }
