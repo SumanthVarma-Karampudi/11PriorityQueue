@@ -1,4 +1,4 @@
-eusing ArraysUnsorted:
+using ArraysUnsorted:
   insertion-O(1)
   getMin/getMax-O(n)
   removeMin/removeMax-O(n)
